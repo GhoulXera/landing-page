@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-style: 'Roboto';
+}
+
+/* Header section */
+
+.header{
+    background-color: #1f2937;
+    padding: 0 100px;
+}
+
+.first-header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-header-container img{
+    width: 300px;
+    padding: 10px 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #ddd;
+}
+
+.second-header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+h1{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 1px;
+}
+
+.info p{
+    font-size: 18px;
+    color: #eee;
+    font-weight: 100;
+}
+
+.info button{
+    background-color: #3882f6;
+    color: #fff;
+    width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+}
+
+.second-header-container img{
+    width: 550px;
+    height: 250px;
+}
+
+/* End header section */
+
+/* Random info section */
+
+.random-info{
+    padding: 20px 200px;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.random-info-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.random-info-container img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.random-info-container p{
+    font-size: 18px;
+    color: #555;
+}
+
+/* End random info section */
+
+/* Quote section */
+
+.quote{
+    text-align: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    padding: 50px 100px;
+}
+
+.quote p{
+    text-align: right;
+}
+
+/* End quote section */
+
+/* Call to action section */
+
+.action{
+    padding: 100px 150px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box .text{
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.text p{
+    color: #eee;
+}
+
+.box button{
+    color: #fff;
+    border: 1.5px solid #fff;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+/* End call to action section */
+
+/* Footer section */
+
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    padding: 30px 0;
+    color: #eee;
+}
+
+/* End footer section */
